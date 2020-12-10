@@ -1,0 +1,25 @@
+$white: #fff;
+$black: #212121;
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.heading{
+  background: $black;
+  background: linear-gradient(to bottom, black, rgb(31, 34, 34));
+  box-shadow: 0 10px 10px 0 $black;
+  padding: 10rem 0;
+  h1 {
+    font-family: 'Audiowide', cursive;
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1;
+    font-weight: normal;
+    margin: 0;
+    padding: 1rem 0;
+    color: $white;
+    &:focus {
+      outline: none;
+    }
+  }
+}
